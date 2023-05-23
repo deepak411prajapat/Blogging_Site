@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/deepak411prajapat/dashboard_react.git/static/css/main.073c9b0a.css",
+    "main.js": "/deepak411prajapat/dashboard_react.git/static/js/main.1b392818.js",
+    "static/js/787.545aecf5.chunk.js": "/deepak411prajapat/dashboard_react.git/static/js/787.545aecf5.chunk.js",
+    "static/media/logo.svg": "/deepak411prajapat/dashboard_react.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/deepak411prajapat/dashboard_react.git/index.html",
+    "main.073c9b0a.css.map": "/deepak411prajapat/dashboard_react.git/static/css/main.073c9b0a.css.map",
+    "main.1b392818.js.map": "/deepak411prajapat/dashboard_react.git/static/js/main.1b392818.js.map",
+    "787.545aecf5.chunk.js.map": "/deepak411prajapat/dashboard_react.git/static/js/787.545aecf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.1b392818.js"
+  ]
+}
