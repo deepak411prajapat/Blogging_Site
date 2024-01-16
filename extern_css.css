@@ -1,0 +1,27 @@
+h1{
+    color:red;
+    background-color: black;
+    text-align:center;
+    
+}
+h2{
+
+    color: black; 
+    text-align: center;
+}
+   
+    
+
+
+body{
+    background-color: aqua;
+    
+}
+ 
+div{
+    background-color:antiquewhite;
+    margin-left:500px;
+    margin-right:500px;
+    height:400px;
+    border-radius:5px;
+}

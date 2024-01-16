@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>linker page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function show()
+            {
+                if(confirm("do you want to proceed?"))
+                    return true;
+                else
+                    return false;
+            }
+            </script>
+    </head>
+    <body>
+        <div> <h2>There are various kind of link for users</h2>
+            <a href="index.html" target="f1"><b>This is index page</b></a> <br>
+            <a href="second.html" target="f1"><b>This is second page</b></a>
+            <hr>
+            
+            <a href="form1.html" onclick="return show();">Form registration</a>
+            
+            
+        </div>
+    </body>
+</html>

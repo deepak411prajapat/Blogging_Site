@@ -1,0 +1,41 @@
+
+<html>
+    <head>
+        <title>learning of JavaScript</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            function add()
+            {
+                a=parseInt(document.getElementById("t1").value);
+                b=parseInt(document.getElementById("t2").value);
+                c=parseInt(document.getElementById("t3").value);
+                si=(a*b*c)/100;
+                document.getElementById("s1").value= si;
+                
+            }
+        </script>
+    </head>
+    <body><table>
+            <tr>
+                <td> enter principal</td> <td> <input type="number" value="" placeholder="principal" name="t1" id="t1"/><br></td>
+            </tr>
+            
+             <tr>
+                <td> enter rate</td> <td> <input type="number" value="" placeholder="rate" name="t2" id="t2"/><br></td>
+            </tr>
+            
+             <tr>
+                <td> enter time</td> <td> <input type="number" value="" placeholder="time" name="t2" id="t3"/><br></td>
+            </tr>
+      
+            <tr> 
+                <td><input type="button" value=" click here" onclick="add();"/><br></td>
+            
+            </tr>
+            <tr>
+                <td> Simple Interest <input type="text" value="" placeholder=" result" name="s1" id="s1" readonly="readonly"/><br></td>
+            </tr>
+        </table>
+    </body>
+</html>

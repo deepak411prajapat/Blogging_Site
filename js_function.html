@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>JS function</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function add()
+            {
+                a=parseInt(prompt("enter first number"));
+                b=parseInt(prompt("enter second number"));
+                c=a+b;
+                alert("sum is :"+c);
+            }
+            function show(x)
+            {
+                student=[{"rollno":111,"name":"Deepak","age":23},{"rollno":112,"name":"lakhan","age":24},{"rollno":115,"name":"sachin","age":22}];
+                
+                for(s of student)
+                   for(ss in s)
+                {
+                    x.innerHTML += s[ss] +"<br/>";
+                }
+            
+                
+            }
+            </script>
+    </head>
+    <body onload="show(p1);">
+        <input type="button" value="addition" onclick="add();"/>
+        <p id="p1">This is </p>
+    </body>
+</html>
