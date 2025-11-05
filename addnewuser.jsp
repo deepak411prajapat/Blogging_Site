@@ -32,7 +32,7 @@
         <div class="container">
             <div class="row">
                 <div class="col col-md-12">
-                    <center><h2>User Registration </h2>
+                    <center><h2>User Registrations </h2>
                         <form action="Usercontroller?op=add" method="post" onsubmit="return compare(pwd1,pwd2,s1);">
                             <table class="table">
                                 <tr>
